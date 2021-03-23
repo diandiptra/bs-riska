@@ -40,8 +40,8 @@ p {
   background-size: cover;
   background-position: top center;
   opacity: 0.5;
-  -webkit-filter: brightness(50%) contrast(160%);
-          filter: brightness(50%) contrast(160%);
+  -webkit-filter: brightness(55%) contrast(150%);
+          filter: brightness(55%) contrast(150%);
 }
 
 .banner .content {
@@ -58,6 +58,18 @@ p {
 .banner .content p {
   font-size: 1em;
   color: #fff;
+}
+
+.banner .content p span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.banner .content p span .titik {
+  color: #ff89b0;
+  font-size: 40px;
 }
 
 .btn {
@@ -272,6 +284,26 @@ section .titleText span {
   color: #111;
 }
 
+.memories .story-content .story-item .story-text p span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.memories .story-content .story-item .story-text p span .titik {
+  color: #ff89b0;
+  font-size: 40px;
+}
+
+.memories .story-content .story-item .story-text p .hati {
+  left: 0;
+}
+
+.memories .story-content .story-item .story-text .second {
+  margin-top: 20px;
+}
+
 .gallery {
   padding: 10px 0 50px;
 }
@@ -475,8 +507,8 @@ section .titleText span {
   width: 100%;
   height: 100%;
   background: linear-gradient(130deg, #ff89b0, #bfe9ff);
-  -webkit-clip-path: circle(10% at 92% 70%);
-          clip-path: circle(10% at 92% 70%);
+  -webkit-clip-path: circle(15% at 92% 65%);
+          clip-path: circle(15% at 92% 65%);
 }
 
 .chteam::after {
@@ -588,8 +620,8 @@ section .titleText span {
 }
 
 .chteam .containter-card .card:hover .sci li {
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
   opacity: 1;
 }
 
@@ -736,8 +768,6 @@ section .titleText span {
   top: 30px;
   right: 30px;
   cursor: pointer;
-  -webkit-filter: invert(1);
-          filter: invert(1);
   max-width: 32px;
 }
 
@@ -817,6 +847,9 @@ section .titleText span {
   }
   .memories .story-content .story-item .story-text p {
     font-size: 11px;
+  }
+  .memories .story-content .story-item .story-text p span {
+    font-size: 15px;
   }
   .memories .story-content .story-item:nth-child(odd) .story-img {
     padding: 0 10px 0 30px;
