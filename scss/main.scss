@@ -43,7 +43,7 @@ p {
     background-size: cover;
     background-position: top center;
     opacity: 0.5;
-    filter: brightness(50%) contrast(160%);
+    filter: brightness(55%) contrast(150%);
   }
   .content {
     position: relative;
@@ -56,6 +56,16 @@ p {
     p {
       font-size: 1em;
       color: #fff;
+      span {
+        font-family: $second-font;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 1px;
+        .titik {
+          color: #ff89b0;
+          font-size: 40px;
+        }
+      }
     }
   }
 }
@@ -223,6 +233,22 @@ section {
           font-size: 14px;
           margin: 0;
           color: #111;
+          span {
+            font-family: $second-font;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 1px;
+            .titik {
+              color: #ff89b0;
+              font-size: 40px;
+            }
+          }
+          .hati {
+            left: 0;
+          }
+        }
+        .second {
+          margin-top: 20px;
         }
       }
     }
@@ -395,7 +421,7 @@ section {
     width: 100%;
     height: 100%;
     background: linear-gradient(130deg, #ff89b0, #bfe9ff);
-    clip-path: circle(10% at 92% 70%);
+    clip-path: circle(15% at 92% 65%);
   }
   &::after {
     content: "";
@@ -471,7 +497,7 @@ section {
         }
         .sci {
           li {
-            transform: translateY(-3px);
+            transform: translateY(10px);
             opacity: 1;
           }
         }
@@ -590,7 +616,6 @@ section {
     top: 30px;
     right: 30px;
     cursor: pointer;
-    filter: invert(1);
     max-width: 32px;
   }
 }
@@ -673,6 +698,9 @@ section {
           }
           p {
             font-size: 11px;
+            span {
+              font-size: 15px;
+            }
           }
         }
         &:nth-child(odd) {
